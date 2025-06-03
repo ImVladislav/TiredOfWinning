@@ -217,7 +217,8 @@ height: 460px;
     align-items: center;
     justify-content: center;
     height: 100%;
-    margin: 0;
+    margin-top: 80%;
+    
 }
 
 .front h1 {
@@ -310,15 +311,21 @@ figure h1 {
     padding: 12px 50px 0 0;
 }
 
+/* Стилі для картинки в секції ABOUT */
+.about-image {
+  display: none; /* За замовчуванням прихована */
+  max-width: 150px;
+  height: auto;
+  margin-top: 15px;
+}
+
 /* Адаптація для планшетів */
-@media(max-width: 1024px) and (min-width: 601px) {
-  .book-section > .container {
-    height: 500px;
-    width: 90%;
-    max-width: 700px;
-    margin: 0 auto;
-    background-size: contain;
-    background-position: center;
+@media(min-width: 1024px) {
+
+
+  /* Показувати картинку тільки на екранах від 1024px */
+  .about-image {
+    display: block;
   }
 }
 
@@ -524,6 +531,11 @@ figure h1 {
     top: 310px;
     left: 150px;
 
+}
+
+/* Показувати картинку тільки на екранах від 1024px */
+.about-image {
+  display: block;
 }
 
 }
