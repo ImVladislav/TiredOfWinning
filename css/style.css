@@ -73,7 +73,7 @@ input[type="radio"] {
 .book-section {
     height: 100vh;
     width: 100%;
-    padding: 40px 0;
+    padding: 100px 0;
     text-align: center;
     position: relative;
     background-image: url(../bg.jpg);
@@ -115,7 +115,11 @@ input[type="radio"] {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* @media (min-width:576px) {
+.book-section > .container {
+height: 460px;
+} */
+/* } */
 .container > .right {
     position: absolute;
     height: 92%;
@@ -306,26 +310,220 @@ figure h1 {
     padding: 12px 50px 0 0;
 }
 
-@media(max-width: 600px) {
+/* Адаптація для планшетів */
+@media(max-width: 1024px) and (min-width: 601px) {
   .book-section > .container {
-    height: 575px;
-    width: 100%;
+    height: 500px;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+  }
 }
 
+@media(max-width: 600px) {
+  .book-section {
+    padding: 70px 0px;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .book-section > .container {
+    height: 379px;
+    width: 95%;
+    max-width: 480px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container > .right {
+    width: 47%;
+    height: 90%;
+  }
+  
+  .book-section > .container > .right {
+    right: 15px;
+    top: 20px;
+  }
+  
+  .book-content {
+    padding: 20px 10px;
+  }
+  
+  .book-content p {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+  
+  .book-content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .mcontent {
+    padding: 10px;
+  }
+  
+  .toc {
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    font-size: 0.9rem;
+    transform: scale(0.8);
+    text-align: center;
+  }
+  
+  .toc div {
+    text-align: center;
+    margin: 5px 0;
+  }
+  
+  .toc h3 {
+    position: absolute;
+    top: -140px;
+    left: -20px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .book-section .top-logo {
+    max-width: 180px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .bottoms-logo {
+    right: 10px;
+    max-width: 50px;
+    bottom: 80px;
+  }
+  
+  .bottom-logo {
+    right: 10px;
+    max-width: 50px;
+    bottom: 10px;
+  }
+  
+  .book-section > button {
+    padding: 8px 15px;
+    font-size: 14px;
+    margin: 5px;
+  }
+  
+  /* Додаткові стилі для зображень на обкладинці */
+  .mcontent img {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  /* Адаптація для дуже маленьких екранів */
+  @media(max-width: 400px) {
+    .book-section > .container {
+      height: 320px;
+      width: 98%;
+    }
+    
+    .book-content p {
+      font-size: 10px;
+    }
+    
+    .book-content h3 {
+      font-size: 14px;
+    }
+    
+    .toc {
+      top: 150px;
+      left: 50px;
+      font-size: 0.8rem;
+      transform: scale(0.7);
+      text-align: center;
+    }
+    
+    .toc div {
+      text-align: center;
+      margin: 3px 0;
+    }
+    
+    .toc h3 {
+      text-align: center;
+      width: 100%;
+    }
+    
+    .book-section .top-logo {
+      max-width: 150px;
+    }
+  }
+}
+
+@media(min-width: 600px) {
+    .book-section > .container > .right {
+      top: 8%;
+      right: 27px;
+    }
+
+    .book-content p {
+      /* font-size: 10px; */
+    }
+
 .container > .right {
-  width: 47%;
+        width: 44%;
+        height: 85%;
 }
-.book-content p {
-  font-size: 12px;
+
+.toc {
+    
+    top: 280px;
+    left: 90px;
+
 }
-.book-content h3 {
-  font-size: 20px;
+
+
+
 }
-.book-section > .container > .right {
-  right: 0;
-  top: 20px;
+
+@media(min-width: 720px) {
+    .book-section > .container > .right {
+      top: 7%;
+      right: 75px;
+    }
+
+    .book-content p {
+      /* font-size: 10px; */
+    }
+
+.container > .right {
+        width: 38%;
 }
-.book-section {
-    padding: 85px 0;
+.toc {
+    
+    top: 280px;
+    left: 100px;
+
 }
+
+}
+
+@media(min-width: 1024px) {
+    .book-section > .container > .right {
+      top: 4%;
+      right: 40px;
+    }
+
+    .book-content p {
+      /* font-size: 10px; */
+    }
+
+.container > .right {
+        width: 44%;
+}
+.toc {
+    
+    top: 310px;
+    left: 150px;
+
+}
+
 }
