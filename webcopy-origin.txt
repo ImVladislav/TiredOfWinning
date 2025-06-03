@@ -1,0 +1,80 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\bookoflies.co\ajax\libs\jquery\3.7.1\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://bookoflies.co/
+File Name: C:\Downloaded Web Sites\bookoflies.co\index.htm
+Content Type: text/html
+
+Uri: https://bookoflies.co/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\bookoflies.co\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://bookoflies.co/css/slick-theme.css
+File Name: C:\Downloaded Web Sites\bookoflies.co\css\slick-theme.css
+Content Type: text/css
+
+Uri: https://bookoflies.co/css/slick.css
+File Name: C:\Downloaded Web Sites\bookoflies.co\css\slick.css
+Content Type: text/css
+
+Uri: https://bookoflies.co/css/style.css
+File Name: C:\Downloaded Web Sites\bookoflies.co\css\style.css
+Content Type: text/css
+
+Uri: https://bookoflies.co/fonts/FlabbyBumshandwriting.eot
+File Name: C:\Downloaded Web Sites\bookoflies.co\fonts\FlabbyBumshandwriting.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://bookoflies.co/fonts/FlabbyBumshandwriting.eot?
+File Name: C:\Downloaded Web Sites\bookoflies.co\fonts\FlabbyBumshandwriting-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://bookoflies.co/fonts/FlabbyBumshandwriting.ttf
+File Name: C:\Downloaded Web Sites\bookoflies.co\fonts\FlabbyBumshandwriting.ttf
+Content Type: font/ttf
+
+Uri: https://bookoflies.co/fonts/FlabbyBumshandwriting.woff
+File Name: C:\Downloaded Web Sites\bookoflies.co\fonts\FlabbyBumshandwriting.woff
+Content Type: application/font-woff
+
+Uri: https://bookoflies.co/fonts/FlabbyBumshandwriting.woff2
+File Name: C:\Downloaded Web Sites\bookoflies.co\fonts\FlabbyBumshandwriting.woff2
+Content Type: font/woff2
+
+Uri: https://bookoflies.co/images/book-stand.png
+File Name: C:\Downloaded Web Sites\bookoflies.co\images\book-stand.png
+Content Type: image/png
+
+Uri: https://bookoflies.co/images/dextools.png
+File Name: C:\Downloaded Web Sites\bookoflies.co\images\dextools.png
+Content Type: image/png
+
+Uri: https://bookoflies.co/images/Logo.png
+File Name: C:\Downloaded Web Sites\bookoflies.co\images\Logo.png
+Content Type: image/png
+
+Uri: https://bookoflies.co/images/Twitter.png
+File Name: C:\Downloaded Web Sites\bookoflies.co\images\Twitter.png
+Content Type: image/png
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js
+File Name: C:\Downloaded Web Sites\bookoflies.co\ajax\libs\popper.js\1.16.0\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/ui/1.12.1/jquery-ui.min.js
+File Name: C:\Downloaded Web Sites\bookoflies.co\ui\1.12.1\jquery-ui.min.js
+Content Type: application/javascript
+
+Uri: https://i.imgur.com/1ljBQ8H.png
+File Name: C:\Downloaded Web Sites\bookoflies.co\1ljBQ8H.png
+Content Type: image/png
+
+Uri: https://i.imgur.com/jBaal0q.png
+File Name: C:\Downloaded Web Sites\bookoflies.co\jBaal0q.png
+Content Type: image/png
+
+Uri: https://i.imgur.com/KXfSlPm.png
+File Name: C:\Downloaded Web Sites\bookoflies.co\KXfSlPm.png
+Content Type: image/png
+
