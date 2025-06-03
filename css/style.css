@@ -353,6 +353,7 @@ figure h1 {
   .book-section > .container > .right {
     right: 15px;
     top: 20px;
+ 
   }
   
   .book-content {
@@ -465,10 +466,12 @@ figure h1 {
   }
 }
 
-@media(min-width: 600px) {
+
+@media(min-width: 510px) {
     .book-section > .container > .right {
-      top: 8%;
+      top: 2%;
       right: 27px;
+      
     }
 
     .book-content p {
@@ -477,7 +480,31 @@ figure h1 {
 
 .container > .right {
         width: 44%;
-        height: 85%;
+        height: 95%;
+}
+.toc {
+    
+    top: 280px;
+    left: 70px;
+
+}
+}
+
+
+@media(min-width: 600px) {
+    .book-section > .container > .right {
+      top: 5%;
+      right: 27px;
+      
+    }
+
+    .book-content p {
+      /* font-size: 10px; */
+    }
+
+.container > .right {
+        width: 44%;
+        height: 90%;
 }
 
 .toc {
@@ -486,15 +513,21 @@ figure h1 {
     left: 90px;
 
 }
-
-
+.book-section > .container {
+  height: 480px;
 
 }
+}
+
+
+
+
+
 
 @media(min-width: 720px) {
     .book-section > .container > .right {
-      top: 7%;
-      right: 75px;
+      top: 5%;
+      right: 20px;
     }
 
     .book-content p {
@@ -502,7 +535,7 @@ figure h1 {
     }
 
 .container > .right {
-        width: 38%;
+        width: 45%;
 }
 .toc {
     
@@ -512,11 +545,25 @@ figure h1 {
 }
 
 }
+@media(min-width: 992px) {
 
+.toc {
+    
+    top: 260px;
+    left: 90px;
+
+}
+
+.book-section > .container {
+  height: 660px;
+
+}
+}
 @media(min-width: 1024px) {
     .book-section > .container > .right {
       top: 4%;
-      right: 40px;
+      right: 34px;
+              height: 610px;
     }
 
     .book-content p {
@@ -524,11 +571,11 @@ figure h1 {
     }
 
 .container > .right {
-        width: 44%;
+        width: 46%;
 }
 .toc {
     
-    top: 310px;
+    top: 260px;
     left: 150px;
 
 }
