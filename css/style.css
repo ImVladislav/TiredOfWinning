@@ -124,6 +124,7 @@ input[type="radio"] {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    /* background-image: url("../bg.jpg"); */
 }
 
 .book-section > .container > .right {
@@ -131,6 +132,7 @@ input[type="radio"] {
     transform-origin: left;
     border-radius: 10px 0 0 10px;
     top: 29px;
+    
 }
 
 .right > figure.front, .right > figure.back {
@@ -199,8 +201,10 @@ input[type="radio"] {
 }
 
 .front#cover, .back#back-cover {
-    background-color: #dfdfdf;
+    /* background-color: #dfdfdf; */
+    background-image: url("../bg.jpg");
     padding: 0 30px;
+    background-size: auto;
 }
 
 .last-content h2 {
@@ -239,6 +243,7 @@ figure h1 {
     justify-content: center;
     align-items: center;
     /*height: 100%;*/
+    background-image: url("../bg.jpg");
 }
 
 .flip::before {
